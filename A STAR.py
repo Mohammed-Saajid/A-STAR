@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
 
 
 from collections import defaultdict
@@ -45,7 +44,7 @@ def aStarAlgo(start_node, stop_node):
                             closed_set.remove(m)
                             open_set.add(m)
         if n == None:
-            TYPE THE CODE HERE TO PRINT AS Path does not exist!
+            print('Path does not exist!')
             
             return None
         
@@ -116,4 +115,3 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-
